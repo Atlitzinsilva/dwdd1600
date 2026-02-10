@@ -1,0 +1,216 @@
+/* Cats Website Stylesheet  */
+body {
+  font-family: "DM Sans", system-ui, -apple-system, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.7;
+
+  background-color: #D7D9D7; 
+  color: #592816;            
+}
+
+/*  HEADER  */
+header {
+  padding: 1rem 1.5rem 0.75rem;
+}
+
+header span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #592816;
+}
+
+/*  NAVIGATION  */
+nav {
+  background-color: #BFB0A3;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0.75rem 1.5rem;
+  list-style-type: none;
+  display: flex;           
+  gap: 0.75rem;
+}
+
+
+nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 48px;        
+  min-width: 110px;
+
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;   
+  font-size: 1.2rem;       
+  font-weight: 700;
+
+  color: #592816;
+  background-color: #D7D9D7;
+  border: 2px solid #8C796D;
+  border-radius: 6px;      
+}
+
+
+nav li.active a {
+  background-color: #A65F37;
+  color: #ffffff;
+  border-color: #A65F37;
+}
+
+
+nav li a:hover {
+  background-color: #8C796D;
+  color: #ffffff;
+}
+
+
+nav li a:active {
+  background-color: #592816;
+  color: #ffffff;
+  border-color: #592816;
+}
+
+/*  MAIN CONTENT  */
+main {
+  padding: 2rem 1.5rem 2.5rem;
+  background-color: transparent; /* not in a box */
+}
+
+
+main h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0.25rem 0 1rem;
+  color: #592816;
+}
+
+main h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  color: #A65F37;
+}
+
+main p {
+  margin: 0 0 1rem;
+  font-weight: 300;      
+}
+
+
+main ul {
+  list-style: circle;   
+  padding-left: 1.25rem;
+}
+
+main ul li {
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+main ol {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(191, 176, 163, 0.25);
+  border: 1px solid rgba(89, 40, 22, 0.25); 
+  border-radius: 10px;                     
+}
+
+
+main dl dt {
+  color: #592816;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+main dl dd {
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+
+main a {
+  color: #A65F37;
+}
+
+main a:hover {
+  color: #592816;
+  text-decoration: none;  
+}
+
+
+main strong {
+  font-weight: 700;
+}
+
+main em {
+  font-weight: 300;
+}
+
+/* -------- HOME PAGE IMAGE -------- */
+
+.home-img {
+  float: right;
+  width: 30%;
+  max-width: 320px;
+  margin: 0 0 1rem 1rem;
+}
+
+
+.home-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* --------- GALLERY STYLES --------- */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery figure {
+  margin: 0;
+  flex: 1 1 220px;
+  max-width: 300px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+/*  FOOTER  */
+
+footer {
+  padding: 1rem 1.5rem;
+  clear: both;
+}
+
+
+footer address {
+  text-align: left;
+  display: block;
+  margin: 0 0 1rem;
+  font-style: normal;
+}
+
+
+footer .copyright {
+  text-align: center;
+  margin: 0;
+}
+
+
+
+
+
