@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Atlitzin Silva">
+    <meta name="description" content="Learn about Cats">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everything You Need to Know About Your Cat: The secret life of cats</title>
+     <!-- Google Font: DM Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cats.css">
+
+
+  <!-- Link to CSS file -->
+    <link rel="stylesheet" href="cats.css">
+</head>
+
+<body>
+    
+    <!-- start the page header-->
+   <header>
+   
+    <span>Cats: Everything You Need to Know</span>
+
+<nav class="site-nav" aria-label="Main navigation">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="health.html">Health</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+     <li class="active"><a href="survey.html">Gallery</a></li>
+  </ul>
+</nav>
+
+
+
+  </header>
+
+  <!-- start the main content -->
+  <main>
+    <h1>Cat Care Survey</h1>
+
+ <p>Answer a few quick questions about your cat. Fields with * are required.</p>
+
+    <form class="myForm" method="get" action="thanks.html">
+
+      <fieldset>
+        <legend>Owner Information</legend>
+
+        <label>Full Name*
+          <input type="text" name="fullName" required>
+        </label>
+
+        <label>Email*
+          <input type="email" name="email" required placeholder="name@example.com">
+        </label>
+
+        <label>Phone*
+          <input type="tel" name="phone" required placeholder="801-555-1234">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Cat</legend>
+
+        <label>Cat Name
+          <input type="text" name="catName" placeholder="Optional">
+        </label>
+
+        <label>Age Group
+          <select name="ageGroup">
+            <option value="">Please Select</option>
+            <option value="kitten">Kitten (0-1 year)</option>
+            <option value="adult">Adult (1-7 years)</option>
+            <option value="senior">Senior (8+ years)</option>
+          </select>
+        </label>
+
+        <p class="formHint">Indoor or outdoor? (choose one)*</p>
+        <label><input type="radio" name="environment" value="indoor" required> Indoor</label>
+        <label><input type="radio" name="environment" value="outdoor"> Outdoor</label>
+        <label><input type="radio" name="environment" value="both"> Both</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Care & Interests</legend>
+
+        <p class="formHint">What topics do you want to learn about? (choose all that apply)</p>
+        <label><input type="checkbox" name="topics" value="nutrition"> Nutrition</label>
+        <label><input type="checkbox" name="topics" value="grooming"> Grooming</label>
+        <label><input type="checkbox" name="topics" value="training"> Behavior/Training</label>
+        <label><input type="checkbox" name="topics" value="health"> Health/Vaccines</label>
+
+        <label>Preferred Reading Level
+          <select name="level">
+            <option value="">Please Select</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </label>
+
+        <label>Questions or notes
+          <textarea name="notes" placeholder="Ex: picky eater, anxious cat, litter box problems..."></textarea>
+        </label>
+      </fieldset>
+
+      <input type="submit" value="Submit Survey">
+    </form>
+  </main>
+
+
+
+  <!-- start the page footer -->
+<footer>
+  <address>
+    Utah Valley University<br>
+    800 W University Pkwy<br>
+    Orem, UT 84058<br>
+    Phone: <a href="tel:8018638888">(801) 863-8888</a>
+  </address>
+
+  <p class="copyright">© 2026 Atlitzin Silva • Web Essentials</p>
+</footer>
+
+
+</body>
+</html>
+
+   
+
+
+
+    
+   
